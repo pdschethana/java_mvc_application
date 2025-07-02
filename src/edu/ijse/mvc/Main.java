@@ -7,6 +7,7 @@ package edu.ijse.mvc;
 import edu.ijse.mvc.db.DBConnection;
 import java.sql.SQLException;
 import edu.ijse.mvc.view.ItemForm;
+import edu.ijse.mvc.view.OrderForm;
 /**
  *
  * @author USER
@@ -18,7 +19,7 @@ public class Main {
      */
     public static void main(String[] args)  {
         new ItemForm().setVisible(true);
-
+        new OrderForm().setVisible(true);
     
     
             }

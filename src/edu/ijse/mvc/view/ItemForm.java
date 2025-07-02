@@ -308,7 +308,9 @@ public class ItemForm extends javax.swing.JFrame {
     System.out.println(itemDto);
         try {
             String resp=itemController.saveItem( itemDto);
+            JOptionPane.showMessageDialog(this, resp);
         } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, e.getMessage());    
         }
 }
 
